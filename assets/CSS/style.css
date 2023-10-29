@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+body ::-webkit-scrollbar {
+    font-family: 'Koulen','cursive';
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.container{
+    max-width: 1409px;
+  }
+
+ :root {
+    --pink: #FFC0CB;
+    --Purple: #800080; 
+    --hotpink:#FF69B4;
+    --Lavender: #F08080;
+    --lightLavender:#F0F0FF;
+    --lightGray: #F0F0F0;
+}
+a{
+    text-decoration: none;
+    color: var(--Purple);
+}
+p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Koulen','cursive';
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* top-header-start */
+
+.top-head {
+
+    background-color: var(--lightLavender);
+    border-radius:0 0 5px 5px;
+    padding: 10px 15px;
+}
+.soc_address {
+    display: flex;
+    align-items: center;
+}
+.soc_address i {padding-right: 5px;color: var(--hotpink);font-size: 20px;}
+
+.soc_address li {
+    margin-left: 30px;
+}
+#cars {
+    background: transparent;
+    border: 0;
+    color:var(--Purple);
+    position: relative;
+}
+#cars:focus-visible {
+    outline: none !important;
+}
+.soc_address li:first-child {
+    margin: 0 !important;
+}
+
+/* top-header-end */
+
+/* center-header-start */
+.search_btn input {
+    width: 100%;
+    padding: 10px 15px;
+    outline: 0;
+    border: 1px solid var(--hotpink);
+    max-width: 532px;
+    border-radius: 5px;
+}
+.search_btn {
+    text-align: center;
+}
+
+.cart i {
+    font-size: 30px;
+    color: var(--hotpink);
+}
+.cart i:last-child {
+    margin-left: 1em;
+}
+.bootem_header {
+    background: var(--Purple);
+    border-radius: 0 0 5px 5px;
+}
+.nav-link {
+    color: white !important;
+}
+.category h3 {
+    font-size: 25px;
+    color: var(--Purple);
+}
